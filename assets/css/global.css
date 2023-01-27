@@ -1,0 +1,226 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('../fonts/neue-machina-regular.otf');
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+.divisoria {
+    padding: 1rem;
+    background: #111;
+}
+
+nav {
+    background: transparent;
+    box-shadow: none;
+    border-bottom-style: solid;
+    border-radius: 1rem;
+    border-width: 1.5px;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+
+.homeIcon {
+    font-size: 1.95rem;
+    font-weight: 500;
+}
+
+.navicons {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav div ul {
+    list-style: none;
+    display: flex;
+    height: auto;
+    padding: 0;
+    padding-right: 2.5rem;
+}
+
+nav div ul li {
+    margin: 1rem;
+    text-align: center;
+}
+
+.img-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+header div {
+    opacity: .8;
+}
+
+.aboutPage {
+    position: relative;
+    padding: 4rem 20% 4rem 10%;
+    margin: 0 auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.aboutPage div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: start;
+}
+
+.aboutPage div div {
+    background-color: rgba(47, 63, 96, 0.7);
+    border-radius: 1.4rem;
+    padding: 2rem;
+}
+
+.contactPage {
+    position: relative;
+    padding: 20%;
+    margin: 0 auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contactPage form {
+    position: relative;
+    padding: 1rem 15%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.forms {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1rem;
+}
+
+label {
+    position: relative;
+    top: 0.5rem;
+    left: 0.8rem;
+    color: #fefffe;
+}
+
+.inputForm {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #00d8b2;
+    border-radius: 0;
+    color: #00d8b2;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 1rem;
+}
+
+.submitBtn {
+    background: transparent;
+    border-radius: 0;
+    color: #00d8b2;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 1rem;
+    border: 2px solid #00d8b2;
+    height: 3rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer div {
+    padding-left: 2rem;
+    font-weight: 300;
+}
+
+footer .midiasSociais ul {
+    list-style: none;
+    display: flex;
+    height: auto;
+    padding: 0;
+    padding-right: 2.5rem;
+    margin: 0;
+}
+
+footer .midiasSociais ul li {
+    margin: 0.8rem;
+}
+
+footer .midiasSociais ul li a img {
+    width: 1.5rem;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 5em;
+    margin: 0.2em 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.2em;
+    margin: 0.2em 0;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+
+/* @media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::before,
+    .main::after {
+        width: 70vw;
+    }
+} */
