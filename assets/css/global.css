@@ -114,7 +114,7 @@ header div {
 
 .contactPage {
     position: relative;
-    padding: 20%;
+    padding: 9% 20%;
     margin: 0 auto;
     height: 100vh;
     overflow: hidden;
@@ -130,8 +130,16 @@ header div {
 
 .forms {
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-gap: 1rem;
+}
+
+.gc6 {
+    grid-column: span 6;
+}
+
+.gc12 {
+    grid-column: span 12;
 }
 
 label {
